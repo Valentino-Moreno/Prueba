@@ -16,7 +16,7 @@ footer img {
   background-repeat: no-repeat;
   background-size: cover; }
 
-#niveles, #niveles h1, #niveles p, #nivel, #nivel .niv, #planes, .planes {
+#niveles, #niveles h1, #niveles p, #nivel, #nivel .niv, #planes, .planes, #contacto, #contacto .contacto form {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -78,7 +78,7 @@ footer img {
   background-repeat: no-repeat;
   background-size: cover; }
 
-#niveles, #niveles h1, #niveles p, #nivel, #nivel .niv, #planes, .planes {
+#niveles, #niveles h1, #niveles p, #nivel, #nivel .niv, #planes, .planes, #contacto, #contacto .contacto form {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -129,7 +129,7 @@ footer img {
   background-repeat: no-repeat;
   background-size: cover; }
 
-#niveles, #niveles h1, #niveles p, #nivel, #nivel .niv, #planes, .planes {
+#niveles, #niveles h1, #niveles p, #nivel, #nivel .niv, #planes, .planes, #contacto, #contacto .contacto form {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -215,7 +215,7 @@ footer img {
   background-repeat: no-repeat;
   background-size: cover; }
 
-#niveles, #niveles h1, #niveles p, #nivel, #nivel .niv, #planes, .planes {
+#niveles, #niveles h1, #niveles p, #nivel, #nivel .niv, #planes, .planes, #contacto, #contacto .contacto form {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -234,7 +234,7 @@ footer img {
   background-repeat: no-repeat;
   background-size: cover; }
 
-#niveles, #niveles h1, #niveles p, #nivel, #nivel .niv, #planes, .planes {
+#niveles, #niveles h1, #niveles p, #nivel, #nivel .niv, #planes, .planes, #contacto, #contacto .contacto form {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -332,7 +332,7 @@ footer img {
   background-repeat: no-repeat;
   background-size: cover; }
 
-#niveles, #niveles h1, #niveles p, #nivel, #nivel .niv, #planes, .planes {
+#niveles, #niveles h1, #niveles p, #nivel, #nivel .niv, #planes, .planes, #contacto, #contacto .contacto form {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -390,7 +390,7 @@ footer img {
   background-repeat: no-repeat;
   background-size: cover; }
 
-#niveles, #niveles h1, #niveles p, #nivel, #nivel .niv, #planes, .planes {
+#niveles, #niveles h1, #niveles p, #nivel, #nivel .niv, #planes, .planes, #contacto, #contacto .contacto form {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -446,3 +446,75 @@ footer img {
     flex-direction: row; }
     .planes .pla p {
       text-align: center; } }
+
+header nav .hea img {
+  width: 160px; }
+
+footer img {
+  width: 130px; }
+
+#planes {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#niveles, #niveles h1, #niveles p, #nivel, #nivel .niv, #planes, .planes, #contacto, #contacto .contacto form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-align: center; }
+
+#contacto {
+  background: #b92b27;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1565C0, #b92b27);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1565C0, #b92b27);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 180px 20px 300px 20px; }
+  #contacto .contacto {
+    background: #b92b27;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1565C0, #b92b27);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 20px;
+    padding: 20px; }
+    #contacto .contacto h1 {
+      color: white;
+      font-size: 3.4em;
+      padding: 20px 5px; }
+    #contacto .contacto form input {
+      margin: 10px 0px;
+      background: #b92b27;
+      /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #1565C0, #b92b27);
+      /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #1565C0, #b92b27);
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      border: none;
+      width: 300px;
+      height: 50px;
+      margin: 10px 20px;
+      border-radius: 15px; }
+      #contacto .contacto form input::placeholder {
+        color: #f8f2f1e3;
+        font-size: 1.5em;
+        padding: 20px; }
+    #contacto .contacto form button {
+      background: #dd231d;
+      /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #0d72e6, #dd231d);
+      /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #0d72e6, #dd231d);
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      width: 300px;
+      height: 50px;
+      border: none;
+      border-radius: 15px;
+      margin: 10px 20px 40px 20px;
+      color: white;
+      font-size: 2.2em; }
